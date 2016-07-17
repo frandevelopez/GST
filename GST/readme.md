@@ -12,50 +12,50 @@
 ###TABLAS###
 
 + Clientes
-    Nombre
-    Direccion
-    CIF
-    Telefono
-    Email
-    Persona de contacto
-    IVA (bool)
-    Formas de pago
-    IBAN
-    SWIFT
-    Courier number
+    + Nombre
+    + Direccion
+    + CIF
+    + Telefono
+    + Email
+    + Persona de contacto
+    + IVA (bool)
+    + Formas de pago
+    + IBAN
+    + SWIFT
+    + Courier number
 + Proveedores
-    Nombre
-    Direccion
-    CIF
-    Telefono
-    Email
-    Persona de contacto
-    IVA (bool)
-    Forma de pago
-    IBAN
-    SWIFT
-    Courier number
+    + Nombre
+    + Direccion
+    + CIF
+    + Telefono
+    + Email
+    + Persona de contacto
+    + IVA (bool)
+    + Forma de pago
+    + IBAN
+    + SWIFT
+    + Courier number
 + Trabajos (tipo)
-     Nombre
+    + Nombre
 + Materias
-    Descriptivo
-    Nombre
-    Proveedor predef.
+    + Descriptivo
+    + Nombre
+    + Proveedor predef.
 + Piezas-Trabajos
-	Id
-	Pieza
-    Tareas
-    Coste
+	+ Id
+	+ Pieza
+    + Tareas
+    + Coste
 + Piezas - Materias
-	Id
-	Pieza
-    Materia
-    Cantidad
+	+ Id
+	+ Pieza
+    + Materia
+    + Cantidad
 + Tareas
-    Pieza
-    Trabajo
-    Trabajador
-    Cantidad
+    + Pieza
+    + Trabajo
+    + Trabajador
+    + Cantidad
 + Empleados
 + Piezas
 
